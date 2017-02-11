@@ -3,6 +3,7 @@
 class physFuncLib():
 
 """Class'ified so as to enable pynsource umlification"""
+
     def yfunc(t, v0):
         """Gives distance of descent over time t for initial velocity v0.
     doc strings can contain examples:

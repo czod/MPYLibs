@@ -1,4 +1,4 @@
-""" math and physics class definitions from Introduction to Programming,
+""" Math and physics class definitions from Introduction to Programming,
 although most of these are perfectly well managed by SumPy functions."""
 
 class Vec2D:
@@ -33,12 +33,12 @@ class Vec2D:
 
 class Rocket:
     """Tsiolkovsky Rocket equation per xkcd"""
-    def __init__(self, vexhaust, deltav,mstart):
+    def __init__(self, vexhaust, deltav, mstart):
         self.vexhaust = vexhaust #usually between 2.5 and 4.5 km/s
         self.deltav = deltav
         self.mstart = mstart
         self.vescape = 13 #kilometers per second
-    def shiptofuel(self.vescape,vexhaust):
+    def shiptofuel(self.vescape, vexhaust):
         #how many kilos of fuel for how many kilos of ship
         ratio = exp(vescape,vexhaust)
         return ratio
